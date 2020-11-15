@@ -1,0 +1,62 @@
+h1{
+    color:red;
+    text-align: center;
+}
+button{
+    align-content: center;
+    background: lightblue;
+    color: brown;
+    padding: 10px 20px;
+}
+.gre{
+    background:pink;
+    text-align: center;
+    color: red;
+}
+p.june{
+	border: 10px solid;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 0;
+	left:2;
+}
+h1.laal{
+	border: 10px solid;
+	border-radius: 50px;
+	position: sticky;
+	top : 0;
+	background: black;
+	opacity: 100%;
+}
+div:hover p.boys{
+	display: block;
+}
+p.boys{
+	display: none;
+	padding: 40px;
+	background: brown;
+	opacity: 30%;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: pink;
+}
+li a{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover{
+	display:block;
+	text-decoration: none;
+	background: black;
+	color: white;
+}

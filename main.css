@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+	color: rgb(67, 75, 62);
+	font-family: fantasy;
+	font-style: oblique;
+}
+button{
+	margin-left: 45%;
+	background: greenyellow;
+	padding: 10px 40px;
+	padding-top: 10px;
+}
+body{
+	background: url("3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+form{
+	padding-left: 45%;
+}
+form textarea{
+	background : lawngreen;
+}
+form label{
+	background: orange;
+	color: brown;
+	margin-top: 20%;
+}
+#p1{
+	padding-left: 45%;
+}
+#h1-1{
+	padding-left: 45%;
+}
+form textarea[placeholder="Please write Feedback here"]{
+	color: black;
+}
+form input{
+    font-family: cursive;
+	background: yellowgreen;
+}
