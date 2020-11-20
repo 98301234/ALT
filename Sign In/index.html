@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<meta name="author" content="Mridul Munsi">
+	<link href="sign.css" rel="stylesheet" type="text/css">
+	<script src="sign.js"></script>
+</head>
+<body>
+	<h1>Sign Up</h1><br>
+	<div>
+	<form action="sign.php" method="get" target="_blank" autocomplete="on" novalidate  name="form" onsubmit=" return form()">
+		<label for="fname">Full Name</label><br>
+		<input id="fname" type="text" name="username" autofocus accept-charset="utf-8" maxlength="10" placeholder="Full Name"><br>
+		<input type="radio" id="male" value="male" name="gender">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" value="female" name="gender">
+		<label for="female">Feamle</label><br>
+		<input type="radio" id="others" value="others" name="gender">
+		<label for="others">Others</label><br>
+		<input type="checkbox" id="tac" value="itl" name="tac" required checked>
+		<label for="tac">I accept all the <a href="tac.html" target="_blank">terms and contions</a></label><br>
+		<input type="date" id="dob" name="dob" max="2014-02-05" min="1960-10-14">
+		<label for="dob">Date of Birth</label><br>
+		<input type="color" id="sc" name="sc">
+		<label for="sc">Submit your skin colour</label><br>
+		<input type="email" id="em" name="email">
+		<label for="em">enter your email</label><br>
+		<input type="file" name="file" id="file" accept="image/jpeg" multiple>
+		<label for="file">paste your file</label><br>
+		<input type="datetime-local" name="dtl" id="dtl">
+		<lebel for="dtl">Please select your Dob</lebel><br>
+		<abbr title="Submit (Alt+g)"><input type="submit" value="submit" accesskey="g"></abbr>
+	</form>
+</body>
+</html>

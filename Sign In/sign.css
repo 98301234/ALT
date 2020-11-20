@@ -1,0 +1,39 @@
+form{
+	padding-left: 40%;
+}
+h1{
+	padding-left: 40%;
+	background: blue;
+	font-family: cursive;
+}
+.goal:invalid{
+	background: red;
+}
+canvas.lol{
+			border: groove 1px brown;
+		}
+		canvas.can{
+			border: solid 3px green;
+			height: 100;
+			width: 100;
+			
+		}
+#fname[placeholder="Full Name"]{
+	background: pink;
+	opacity: 50%;
+	color: brown;
+	
+}
+#fname{
+	height: 40pxpx;
+	width: 300px;
+}
+abbr[title="Submit (Alt+g)"]:hover{
+	background: blue;
+	opacity: 40%;
+	font-family: cursive;
+	
+}
+body {
+	background-image: url("C:\xampp\htdocs\www.alt.org\bulb on.png");
+}
